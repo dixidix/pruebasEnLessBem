@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   './gulp-task' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose install initial load of c:\Users\nicolas.sigal\Desktop\testApp\package.json
+5 warn package.json testapp@1.0.0 No description
+6 warn package.json testapp@1.0.0 No repository field.
+7 warn package.json testapp@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\browser-sync\package.json
+9 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\connect-history-api-fallback\package.json
+10 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\event-stream\package.json
+11 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\globby\package.json
+12 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp\package.json
+13 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-autoprefixer\package.json
+14 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-clean\package.json
+15 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-concat\package.json
+16 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-cssmin\package.json
+17 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-debug\package.json
+18 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-if\package.json
+19 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-less\package.json
+20 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-load-plugins\package.json
+21 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-rename\package.json
+22 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-replace\package.json
+23 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-sourcemaps\package.json
+24 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\gulp-util\package.json
+25 verbose installManyTop reading scoped package data from c:\Users\nicolas.sigal\Desktop\testApp\node_modules\http-proxy-middleware\package.json
+26 info package.json gulp-rename@1.2.2 No license field.
+27 info package.json gulp-clean@0.3.1 No license field.
+28 verbose readDependencies loading dependencies from c:\Users\nicolas.sigal\Desktop\testApp\package.json
+29 silly cache add args [ './gulp-task', null ]
+30 verbose cache add spec ./gulp-task
+31 silly cache add parsed spec Result {
+31 silly cache add   raw: './gulp-task',
+31 silly cache add   scope: null,
+31 silly cache add   name: null,
+31 silly cache add   rawSpec: './gulp-task',
+31 silly cache add   spec: 'c:\\Users\\nicolas.sigal\\Desktop\\testApp\\gulp-task',
+31 silly cache add   type: 'local' }
+32 error addLocal Could not install c:\Users\nicolas.sigal\Desktop\testApp\gulp-task
+33 verbose stack Error: ENOENT: no such file or directory, open 'c:\Users\nicolas.sigal\Desktop\testApp\gulp-task'
+33 verbose stack     at Error (native)
+34 verbose cwd c:\Users\nicolas.sigal\Desktop\testApp
+35 error Windows_NT 6.1.7601
+36 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "./gulp-task"
+37 error node v4.2.2
+38 error npm  v2.14.7
+39 error path c:\Users\nicolas.sigal\Desktop\testApp\gulp-task
+40 error code ENOENT
+41 error errno -4058
+42 error syscall open
+43 error enoent ENOENT: no such file or directory, open 'c:\Users\nicolas.sigal\Desktop\testApp\gulp-task'
+43 error enoent This is most likely not a problem with npm itself
+43 error enoent and is related to npm not being able to find a file.
+44 verbose exit [ -4058, true ]
